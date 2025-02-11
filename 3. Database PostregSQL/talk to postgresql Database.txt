@@ -1,0 +1,342 @@
+Last login: Fri Nov 22 15:51:07 on ttys001
+gabriel@MacBook-Air-von-Gabriel ~ % brew
+zsh: command not found: brew
+gabriel@MacBook-Air-von-Gabriel ~ % ls -a
+.			.idlerc			Downloads
+..			.lesshst		Library
+.CFUserTextEncoding	.m2			Movies
+.DS_Store		.zprofile		Music
+.Trash			.zsh_history		OneDrive
+.bash_history		.zsh_sessions		Pictures
+.docker			Desktop			Public
+.h2.server.properties	Documents		PycharmProjects
+gabriel@MacBook-Air-von-Gabriel ~ % code 
+zsh: command not found: code
+gabriel@MacBook-Air-von-Gabriel ~ % vi
+gabriel@MacBook-Air-von-Gabriel ~ % nano .zprofile  
+gabriel@MacBook-Air-von-Gabriel ~ % source .zprofile 
+gabriel@MacBook-Air-von-Gabriel ~ % brew help
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+gabriel@MacBook-Air-von-Gabriel ~ % pwd
+/Users/gabriel
+gabriel@MacBook-Air-von-Gabriel ~ % ls
+Desktop		Downloads	Movies		OneDrive	Public
+Documents	Library		Music		Pictures	PycharmProjects
+gabriel@MacBook-Air-von-Gabriel ~ % ls -a
+.			.lesshst		Library
+..			.m2			Movies
+.CFUserTextEncoding	.viminfo		Music
+.DS_Store		.zprofile		OneDrive
+.Trash			.zsh_history		Pictures
+.bash_history		.zsh_sessions		Public
+.docker			Desktop			PycharmProjects
+.h2.server.properties	Documents
+.idlerc			Downloads
+gabriel@MacBook-Air-von-Gabriel ~ % nano .zprofile 
+gabriel@MacBook-Air-von-Gabriel ~ % brew
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+gabriel@MacBook-Air-von-Gabriel ~ % brew install postgresql
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+ansible@10          fltk@1.3            libcutl             php@8.3
+cmake-lint          gci                 libxsd-frontend     xcresultparser
+eslint_d            havn                mergiraf
+==> New Casks
+beyond-compare@4                         pixpin
+djstudio                                 taskbar
+font-departure-mono-nerd-font            teleport
+font-maple-mono-nf                       testfully
+last-window-quits
+
+Warning: Formula postgresql was renamed to postgresql@14.
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/14/manifests/14.15
+######################################################################### 100.0%
+==> Fetching dependencies for postgresql@14: icu4c@76, ca-certificates, openssl@3, krb5, lz4 and readline
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/manifests/76.1_1
+######################################################################### 100.0%
+==> Fetching icu4c@76
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/blobs/sha256:66a2995c0
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-
+######################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:21
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.0
+######################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:bf2e6c5c
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.3
+######################################################################### 100.0%
+==> Fetching krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:75d0ce70b754c
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.10.0-1
+######################################################################### 100.0%
+==> Fetching lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:5bd143b7b78498
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.13
+######################################################################### 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:738c27cee
+######################################################################### 100.0%
+==> Fetching postgresql@14
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/14/blobs/sha256:98f8
+######################################################################### 100.0%
+==> Installing dependencies for postgresql@14: icu4c@76, ca-certificates, openssl@3, krb5, lz4 and readline
+==> Installing postgresql@14 dependency: icu4c@76
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/manifests/76.1_1
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/c105f8980d3a6b0ff0253b47492e886520580406ee75fa52509cf5b251b4d633--icu4c@76-76.1_1.bottle_manifest.json
+==> Pouring icu4c@76--76.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@76/76.1_1: 277 files, 81MB
+==> Installing postgresql@14 dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/338dad7c2ff7c822cda7c417944521589856741c0fbd7a7f07b88a18d7fb7e05--ca-certificates-2024-09-24.bottle_manifest.json
+==> Pouring ca-certificates--2024-09-24.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2024-09-24: 4 files, 237.4KB
+==> Installing postgresql@14 dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.0
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/a8a169d38329b14f967d497d0ea77eee6dc5444175093fc7b26026b357e81736--openssl@3-3.4.0.bottle_manifest.json
+==> Pouring openssl@3--3.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.4.0: 7,236 files, 33.4MB
+==> Installing postgresql@14 dependency: krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.3
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/c5793441ca90aa09420dddd84f19d4aaf86da4f0b3f60c84940d77b1cb4c6863--krb5-1.21.3.bottle_manifest.json
+==> Pouring krb5--1.21.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/krb5/1.21.3: 163 files, 5.6MB
+==> Installing postgresql@14 dependency: lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.10.0-1
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/8e11e90eb21a06e0f199af9d80e011e3693c77dd353b2477579d95c8471a5802--lz4-1.10.0-1.bottle_manifest.json
+==> Pouring lz4--1.10.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/lz4/1.10.0: 24 files, 713.6KB
+==> Installing postgresql@14 dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.13
+Already downloaded: /Users/gabriel/Library/Caches/Homebrew/downloads/aa1afa38997a2866d91c81fdda8b36d436cd4ea7a82aed07d13c83c56eb3460e--readline-8.2.13.bottle_manifest.json
+==> Pouring readline--8.2.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.13: 51 files, 1.7MB
+==> Installing postgresql@14
+==> Pouring postgresql@14--14.15.arm64_sequoia.bottle.tar.gz
+==> /opt/homebrew/Cellar/postgresql@14/14.15/bin/initdb --locale=C -E UTF-8 /opt
+==> Caveats
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
+
+To start postgresql@14 now and restart at login:
+  brew services start postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
+==> Summary
+🍺  /opt/homebrew/Cellar/postgresql@14/14.15: 3,328 files, 45.6MB
+==> Running `brew cleanup postgresql@14`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> postgresql@14
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
+
+To start postgresql@14 now and restart at login:
+  brew services start postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
+gabriel@MacBook-Air-von-Gabriel ~ % psql
+psql: error: connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+gabriel@MacBook-Air-von-Gabriel ~ % psql --help
+^[[3~psql is the PostgreSQL interactive terminal.
+
+Usage:
+  psql [OPTION]... [DBNAME [USERNAME]]
+
+General options:
+  -c, --command=COMMAND    run only single command (SQL or internal) and exit
+  -d, --dbname=DBNAME      database name to connect to (default: "gabriel")
+  -f, --file=FILENAME      execute commands from file, then exit
+  -l, --list               list available databases, then exit
+  -v, --set=, --variable=NAME=VALUE
+                           set psql variable NAME to VALUE
+                           (e.g., -v ON_ERROR_STOP=1)
+  -V, --version            output version information, then exit
+  -X, --no-psqlrc          do not read startup file (~/.psqlrc)
+  -1 ("one"), --single-transaction
+                           execute as a single transaction (if non-interactive)
+  -?, --help[=options]     show this help, then exit
+      --help=commands      list backslash commands, then exit
+      --help=variables     list special variables, then exit
+
+Input and output options:
+  -a, --echo-all           echo all input from script
+  -b, --echo-errors        echo failed commands
+  -e, --echo-queries       echo commands sent to server
+  -E, --echo-hidden        display queries that internal commands generate
+  -L, --log-file=FILENAME  send session log to file
+  -n, --no-readline        disable enhanced command line editing (readline)
+  -o, --output=FILENAME    send query results to file (or |pipe)
+  -q, --quiet              run quietly (no messages, only query output)
+  -s, --single-step        single-step mode (confirm each query)
+  -S, --single-line        single-line mode (end of line terminates SQL command)
+
+Output format options:
+  -A, --no-align           unaligned table output mode
+      --csv                CSV (Comma-Separated Values) table output mode
+  -F, --field-separator=STRING
+                           field separator for unaligned output (default: "|")
+  -H, --html               HTML table output mode
+  -P, --pset=VAR[=ARG]     set printing option VAR to ARG (see \pset command)
+  -R, --record-separator=STRING
+                           record separator for unaligned output (default: newline)
+  -t, --tuples-only        print rows only
+  -T, --table-attr=TEXT    set HTML table tag attributes (e.g., width, border)
+  -x, --expanded           turn on expanded table output
+  -z, --field-separator-zero
+                           set field separator for unaligned output to zero byte
+  -0, --record-separator-zero
+                           set record separator for unaligned output to zero byte
+
+Connection options:
+  -h, --host=HOSTNAME      database server host or socket directory (default: "local socket")
+  -p, --port=PORT          database server port (default: "5432")
+  -U, --username=USERNAME  database user name (default: "gabriel")
+  -w, --no-password        never prompt for password
+  -W, --password           force password prompt (should happen automatically)
+
+For more information, type "\?" (for internal commands) or "\help" (for SQL
+commands) from within psql, or consult the psql section in the PostgreSQL
+documentation.
+
+Report bugs to <pgsql-bugs@lists.postgresql.org>.
+PostgreSQL home page: <https://www.postgresql.org/>
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost:5432
+psql: error: could not translate host name "localhost:5432" to address: nodename nor servname provided, or not known
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost:5432 -d runfun
+psql: error: could not translate host name "localhost:5432" to address: nodename nor servname provided, or not known
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost:5432 -d runfun -u gab
+psql: invalid option -- u
+Try "psql --help" for more information.
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost:5432 -d runfun -U gab
+psql: error: could not translate host name "localhost:5432" to address: nodename nor servname provided, or not known
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost:5432 -U gab -d runfun
+psql: error: could not translate host name "localhost:5432" to address: nodename nor servname provided, or not known
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost -p 5432 -U gab -d runfun
+Password for user gab: 
+psql: error: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "gab"
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost -p 5432 -U gab -d runfun
+Password for user gab: 
+psql: error: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "gab"
+gabriel@MacBook-Air-von-Gabriel ~ % psql -h localhost -p 5432 -U gab -d runfun
+Password for user gab: 
+psql (14.15 (Homebrew), server 17.1 (Debian 17.1-1.pgdg120+1))
+WARNING: psql major version 14, server major version 17.
+         Some psql features might not work.
+Type "help" for help.
+
+runfun=# Select * From Run
+runfun-# SELECT * FROM run;
+ERROR:  syntax error at or near "SELECT"
+LINE 2: SELECT * FROM run;
+        ^
+runfun=# Select * From Run
+SELECT * FROM ru^C
+runfun=# select^C
+runfun=# ^C
+runfun=# select * from run;
+ id |     title     |     started_on      |    completed_on     | miles | location 
+----+---------------+---------------------+---------------------+-------+----------
+  1 | Noon Run      | 2024-02-20 06:05:00 | 2024-02-20 10:27:00 |    24 | INDOOR
+  2 | Afternoon Run | 2024-02-22 12:16:00 | 2024-02-22 14:27:00 |     6 | OUTDOOR
+  3 | Dawn Run      | 2024-03-06 19:47:00 | 2024-03-06 22:06:00 |    19 | INDOOR
+  4 | Sunset Jog    | 2024-03-31 08:32:00 | 2024-03-31 12:57:00 |     7 | OUTDOOR
+(4 rows)
+
+runfun=# select * from Run;
+ id |     title     |     started_on      |    completed_on     | miles | location 
+----+---------------+---------------------+---------------------+-------+----------
+  1 | Noon Run      | 2024-02-20 06:05:00 | 2024-02-20 10:27:00 |    24 | INDOOR
+  2 | Afternoon Run | 2024-02-22 12:16:00 | 2024-02-22 14:27:00 |     6 | OUTDOOR
+  3 | Dawn Run      | 2024-03-06 19:47:00 | 2024-03-06 22:06:00 |    19 | INDOOR
+  4 | Sunset Jog    | 2024-03-31 08:32:00 | 2024-03-31 12:57:00 |     7 | OUTDOOR
+(4 rows)
+
+runfun=# select * from run
+runfun-# ;
+ id |     title     |     started_on      |    completed_on     | miles | location 
+----+---------------+---------------------+---------------------+-------+----------
+  1 | Noon Run      | 2024-02-20 06:05:00 | 2024-02-20 10:27:00 |    24 | INDOOR
+  2 | Afternoon Run | 2024-02-22 12:16:00 | 2024-02-22 14:27:00 |     6 | OUTDOOR
+  3 | Dawn Run      | 2024-03-06 19:47:00 | 2024-03-06 22:06:00 |    19 | INDOOR
+  4 | Sunset Jog    | 2024-03-31 08:32:00 | 2024-03-31 12:57:00 |     7 | OUTDOOR
+(4 rows)
+
+runfun=# select
+runfun-# *
+runfun-# from
+runfun-# run
+runfun-# ;
+ id |     title     |     started_on      |    completed_on     | miles | location 
+----+---------------+---------------------+---------------------+-------+----------
+  1 | Noon Run      | 2024-02-20 06:05:00 | 2024-02-20 10:27:00 |    24 | INDOOR
+  2 | Afternoon Run | 2024-02-22 12:16:00 | 2024-02-22 14:27:00 |     6 | OUTDOOR
+  3 | Dawn Run      | 2024-03-06 19:47:00 | 2024-03-06 22:06:00 |    19 | INDOOR
+  4 | Sunset Jog    | 2024-03-31 08:32:00 | 2024-03-31 12:57:00 |     7 | OUTDOOR
+(4 rows)
+
+runfun=# 
